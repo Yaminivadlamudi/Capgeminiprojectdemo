@@ -1,3 +1,4 @@
+
 package ecom.BITM.QADemo.POM;
 
 import java.time.Duration;
@@ -54,7 +55,36 @@ public class QADemoLoginpage {
     }
     
 
-
+//    public void login(String email, String password) {
+//
+//        // Navigate to the login page only if not already there.
+//        if (!driver.getCurrentUrl().contains("/login")) {
+//            driver.get("https://qademo.com/login");
+//        }
+//
+//        // Wait for the login form to become available.
+//        WebElement username = wait.until(
+//            ExpectedConditions.visibilityOf(emailField)
+//        );
+//
+//        WebElement passwordBox = wait.until(
+//            ExpectedConditions.visibilityOf(passwordField)
+//        );
+//
+//        username.clear();
+//        username.sendKeys(email);
+//
+//        passwordBox.clear();
+//        passwordBox.sendKeys(password);
+//
+//        wait.until(
+//            ExpectedConditions.elementToBeClickable(signInButton)
+//        ).click();
+//
+//        // Confirm navigation after login.
+//        wait.until(
+//            ExpectedConditions.urlContains("/catalog")
+//        );
     
 
 public void login(String email, String password) {

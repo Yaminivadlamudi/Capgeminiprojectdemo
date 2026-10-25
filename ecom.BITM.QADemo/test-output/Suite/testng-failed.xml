@@ -4,24 +4,23 @@
   <test thread-count="5" name="Test(failed)">
     <groups>
       <run>
-        <include name="Functionality"/>
+        <include name="System"/>
       </run>
     </groups>
     <classes>
-      <class name="ecom.BITM.QADemoSignupscript.QADemoSignupPositive">
+      <class name="ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive">
         <methods>
           <include name="bC"/>
           <include name="aC"/>
-          <include name="verifySignUp"/>
           <include name="aM"/>
           <include name="bM"/>
+          <include name="verifyCompleteOrderPlacement" invocation-numbers="0"/>
         </methods>
-      </class> <!-- ecom.BITM.QADemoSignupscript.QADemoSignupPositive -->
+      </class> <!-- ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive -->
       <class name="ecom.BITM.QADemoOrderplacedscript.QADemoOrderplacedPositive">
         <methods>
-          <include name="verifyContinueShopping"/>
           <include name="bC"/>
-          <include name="verifyMyOrders"/>
+          <include name="verifyMyOrders" invocation-numbers="0"/>
           <include name="aC"/>
           <include name="aM"/>
           <include name="bM"/>
