@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [QADemo Cross Browser Suite]">
+  <test thread-count="5" name="edge Tests(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="ecom.BITM.QADemoProductscript.QADemoProductNegative">
+        <methods>
+          <include name="bC"/>
+          <include name="bS"/>
+          <include name="verifyProductAddedToCart"/>
+          <include name="bT"/>
+          <include name="aC"/>
+          <include name="aS"/>
+          <include name="aT"/>
+          <include name="aM"/>
+          <include name="bM"/>
+        </methods>
+      </class> <!-- ecom.BITM.QADemoProductscript.QADemoProductNegative -->
+      <class name="ecom.BITM.QADemoLoginscript.QADemoLoginPositive">
+        <methods>
+          <include name="bC"/>
+          <include name="bS"/>
+          <include name="verifyLogin"/>
+          <include name="aC"/>
+          <include name="aS"/>
+          <include name="bT"/>
+          <include name="verifyLoginProductCartIntegration"/>
+          <include name="aT"/>
+          <include name="aM"/>
+          <include name="bM"/>
+        </methods>
+      </class> <!-- ecom.BITM.QADemoLoginscript.QADemoLoginPositive -->
+      <class name="ecom.BITM.QADemoCartscript.QADemoCartNegative">
+        <methods>
+          <include name="bS"/>
+          <include name="bC"/>
+          <include name="verifyProductIncrease"/>
+          <include name="bT"/>
+          <include name="aS"/>
+          <include name="aC"/>
+          <include name="aT"/>
+          <include name="aM"/>
+          <include name="bM"/>
+        </methods>
+      </class> <!-- ecom.BITM.QADemoCartscript.QADemoCartNegative -->
+      <class name="ecom.BITM.QADemoSignupscript.QADemoSignupNegative">
+        <methods>
+          <include name="bS"/>
+          <include name="bC"/>
+          <include name="aS"/>
+          <include name="bT"/>
+          <include name="aC"/>
+          <include name="aT"/>
+          <include name="aM"/>
+          <include name="verifySignUp"/>
+          <include name="bM"/>
+        </methods>
+      </class> <!-- ecom.BITM.QADemoSignupscript.QADemoSignupNegative -->
+      <class name="ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive">
+        <methods>
+          <include name="verifybackwardnavigation"/>
+          <include name="bS"/>
+          <include name="bC"/>
+          <include name="aS"/>
+          <include name="aC"/>
+          <include name="bT"/>
+          <include name="aT"/>
+          <include name="aM"/>
+          <include name="bM"/>
+          <include name="verifyCompleteOrderPlacement"/>
+          <include name="verifyLoginAndProductCatalog"/>
+        </methods>
+      </class> <!-- ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive -->
+      <class name="ecom.BITM.QADemoLoginscript.QADemoLoginNegative">
+        <methods>
+          <include name="bS"/>
+          <include name="bC"/>
+          <include name="aS"/>
+          <include name="aC"/>
+          <include name="bT"/>
+          <include name="aT"/>
+          <include name="aM"/>
+          <include name="bM"/>
+          <include name="verifyInvalidLogin"/>
+        </methods>
+      </class> <!-- ecom.BITM.QADemoLoginscript.QADemoLoginNegative -->
+      <class name="ecom.BITM.QADemoCartscript.QADemoCartPositive">
+        <methods>
+          <include name="bC"/>
+          <include name="bS"/>
+          <include name="bT"/>
+          <include name="aC"/>
+          <include name="aS"/>
+          <include name="aT"/>
+          <include name="verifyProceedToCheckout"/>
+          <include name="aM"/>
+          <include name="verifyProductAddedToCart"/>
+          <include name="bM"/>
+          <include name="verifyCountinueShopping"/>
+        </methods>
+      </class> <!-- ecom.BITM.QADemoCartscript.QADemoCartPositive -->
+      <class name="ecom.BITM.QADemoSignupscript.QADemoSignupPositive">
+        <methods>
+          <include name="bC"/>
+          <include name="bS"/>
+          <include name="aC"/>
+          <include name="bT"/>
+          <include name="aS"/>
+          <include name="aT"/>
+          <include name="verifySignUp"/>
+          <include name="aM"/>
+          <include name="bM"/>
+        </methods>
+      </class> <!-- ecom.BITM.QADemoSignupscript.QADemoSignupPositive -->
+      <class name="ecom.BITM.QADemoProductscript.QADemoProductpositive">
+        <methods>
+          <include name="bC"/>
+          <include name="bS"/>
+          <include name="aC"/>
+          <include name="aS"/>
+          <include name="bT"/>
+          <include name="verifyProduct"/>
+          <include name="aT"/>
+          <include name="verifyProductCatalog"/>
+          <include name="aM"/>
+          <include name="verifyProductAddedToCart"/>
+          <include name="bM"/>
+        </methods>
+      </class> <!-- ecom.BITM.QADemoProductscript.QADemoProductpositive -->
+      <class name="ecom.BITM.QADemoCheckoutscript.QADemoCheckoutNegative">
+        <methods>
+          <include name="bC"/>
+          <include name="bS"/>
+          <include name="bT"/>
+          <include name="aC"/>
+          <include name="aS"/>
+          <include name="aT"/>
+          <include name="verifyCheckoutWithEmptyDetails"/>
+          <include name="aM"/>
+          <include name="bM"/>
+        </methods>
+      </class> <!-- ecom.BITM.QADemoCheckoutscript.QADemoCheckoutNegative -->
+      <class name="ecom.BITM.QADemoOrderplacedscript.QADemoOrderplacedPositive">
+        <methods>
+          <include name="bC"/>
+          <include name="bS"/>
+          <include name="verifyContinueShopping"/>
+          <include name="verifyMyOrders"/>
+          <include name="bT"/>
+          <include name="aC"/>
+          <include name="aS"/>
+          <include name="aT"/>
+          <include name="aM"/>
+          <include name="bM"/>
+        </methods>
+      </class> <!-- ecom.BITM.QADemoOrderplacedscript.QADemoOrderplacedPositive -->
+    </classes>
+  </test> <!-- edge Tests(failed) -->
+  <test thread-count="5" name="Chrome Tests(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="ecom.BITM.QADemoProductscript.QADemoProductNegative">
+        <methods>
+          <include name="bS"/>
+          <include name="bC"/>
+          <include name="verifyProductAddedToCart"/>
+          <include name="aS"/>
+          <include name="aC"/>
+          <include name="bT"/>
+          <include name="aT"/>
+          <include name="aM"/>
+          <include name="bM"/>
+        </methods>
+      </class> <!-- ecom.BITM.QADemoProductscript.QADemoProductNegative -->
+      <class name="ecom.BITM.QADemoLoginscript.QADemoLoginPositive">
+        <methods>
+          <include name="bC"/>
+          <include name="bS"/>
+          <include name="verifyLogin"/>
+          <include name="aC"/>
+          <include name="aS"/>
+          <include name="bT"/>
+          <include name="aT"/>
+          <include name="verifyLoginProductCartIntegration"/>
+          <include name="aM"/>
+          <include name="bM"/>
+        </methods>
+      </class> <!-- ecom.BITM.QADemoLoginscript.QADemoLoginPositive -->
+      <class name="ecom.BITM.QADemoCartscript.QADemoCartNegative">
+        <methods>
+          <include name="bS"/>
+          <include name="bC"/>
+          <include name="verifyProductIncrease"/>
+          <include name="aS"/>
+          <include name="aC"/>
+          <include name="bT"/>
+          <include name="aT"/>
+          <include name="aM"/>
+          <include name="bM"/>
+        </methods>
+      </class> <!-- ecom.BITM.QADemoCartscript.QADemoCartNegative -->
+      <class name="ecom.BITM.QADemoSignupscript.QADemoSignupNegative">
+        <methods>
+          <include name="bC"/>
+          <include name="bS"/>
+          <include name="bT"/>
+          <include name="aS"/>
+          <include name="aC"/>
+          <include name="aT"/>
+          <include name="aM"/>
+          <include name="verifySignUp"/>
+          <include name="bM"/>
+        </methods>
+      </class> <!-- ecom.BITM.QADemoSignupscript.QADemoSignupNegative -->
+      <class name="ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive">
+        <methods>
+          <include name="verifybackwardnavigation"/>
+          <include name="bS"/>
+          <include name="bC"/>
+          <include name="aS"/>
+          <include name="aC"/>
+          <include name="bT"/>
+          <include name="aT"/>
+          <include name="aM"/>
+          <include name="bM"/>
+          <include name="verifyLoginAndProductCatalog"/>
+          <include name="verifyCompleteOrderPlacement"/>
+        </methods>
+      </class> <!-- ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive -->
+      <class name="ecom.BITM.QADemoLoginscript.QADemoLoginNegative">
+        <methods>
+          <include name="bS"/>
+          <include name="bC"/>
+          <include name="aC"/>
+          <include name="aS"/>
+          <include name="bT"/>
+          <include name="aT"/>
+          <include name="aM"/>
+          <include name="bM"/>
+          <include name="verifyInvalidLogin"/>
+        </methods>
+      </class> <!-- ecom.BITM.QADemoLoginscript.QADemoLoginNegative -->
+      <class name="ecom.BITM.QADemoCartscript.QADemoCartPositive">
+        <methods>
+          <include name="bS"/>
+          <include name="bC"/>
+          <include name="bT"/>
+          <include name="aS"/>
+          <include name="aC"/>
+          <include name="aT"/>
+          <include name="verifyProceedToCheckout"/>
+          <include name="aM"/>
+          <include name="verifyProductAddedToCart"/>
+          <include name="bM"/>
+          <include name="verifyCountinueShopping"/>
+        </methods>
+      </class> <!-- ecom.BITM.QADemoCartscript.QADemoCartPositive -->
+      <class name="ecom.BITM.QADemoSignupscript.QADemoSignupPositive">
+        <methods>
+          <include name="bC"/>
+          <include name="bS"/>
+          <include name="aC"/>
+          <include name="aS"/>
+          <include name="bT"/>
+          <include name="aT"/>
+          <include name="verifySignUp"/>
+          <include name="aM"/>
+          <include name="bM"/>
+        </methods>
+      </class> <!-- ecom.BITM.QADemoSignupscript.QADemoSignupPositive -->
+      <class name="ecom.BITM.QADemoProductscript.QADemoProductpositive">
+        <methods>
+          <include name="bC"/>
+          <include name="bS"/>
+          <include name="aC"/>
+          <include name="aS"/>
+          <include name="bT"/>
+          <include name="aT"/>
+          <include name="verifyProduct"/>
+          <include name="verifyProductCatalog"/>
+          <include name="aM"/>
+          <include name="verifyProductAddedToCart"/>
+          <include name="bM"/>
+        </methods>
+      </class> <!-- ecom.BITM.QADemoProductscript.QADemoProductpositive -->
+      <class name="ecom.BITM.QADemoCheckoutscript.QADemoCheckoutNegative">
+        <methods>
+          <include name="bS"/>
+          <include name="bC"/>
+          <include name="bT"/>
+          <include name="aS"/>
+          <include name="aC"/>
+          <include name="aT"/>
+          <include name="verifyCheckoutWithEmptyDetails"/>
+          <include name="aM"/>
+          <include name="bM"/>
+        </methods>
+      </class> <!-- ecom.BITM.QADemoCheckoutscript.QADemoCheckoutNegative -->
+      <class name="ecom.BITM.QADemoOrderplacedscript.QADemoOrderplacedPositive">
+        <methods>
+          <include name="verifyContinueShopping"/>
+          <include name="bS"/>
+          <include name="bC"/>
+          <include name="bT"/>
+          <include name="aS"/>
+          <include name="aC"/>
+          <include name="verifyMyOrders"/>
+          <include name="aT"/>
+          <include name="aM"/>
+          <include name="bM"/>
+        </methods>
+      </class> <!-- ecom.BITM.QADemoOrderplacedscript.QADemoOrderplacedPositive -->
+    </classes>
+  </test> <!-- Chrome Tests(failed) -->
+</suite> <!-- Failed suite [QADemo Cross Browser Suite] -->

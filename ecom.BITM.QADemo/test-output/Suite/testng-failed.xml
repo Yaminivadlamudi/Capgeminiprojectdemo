@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="Functionality"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="ecom.BITM.QADemoOrderplacedscript.QADemoOrderplacedPositive">
+        <methods>
+          <include name="bC"/>
+          <include name="verifyContinueShopping"/>
+          <include name="aC"/>
+          <include name="verifyMyOrders"/>
+          <include name="aM"/>
+          <include name="bM"/>
+        </methods>
+      </class> <!-- ecom.BITM.QADemoOrderplacedscript.QADemoOrderplacedPositive -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
