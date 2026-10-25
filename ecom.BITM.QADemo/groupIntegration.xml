@@ -2,6 +2,7 @@
 <suite name="Suite">
 <groups>
 <run>
+<<<<<<< HEAD
 <include name="Negative"></include>
 </run>
 </groups>
@@ -12,6 +13,19 @@
       <class name="ecom.BITM.QADemoLoginscript.QADemoLoginNegative"/>
       <class name="ecom.BITM.QADemoCartscript.QADemoCartNegative"/>
       <class name="ecom.BITM.QADemoCheckoutscript.QADemoCheckoutNegative"/>
+=======
+<include name="Integration"></include>
+</run>
+</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="ecom.BITM.QADemoOrderplacedscript.QADemoOrderplacedPositive"/>
+      <class name="ecom.BITM.QADemoProductscript.QADemoProductpositive"/>
+      <class name="ecom.BITM.QADemoCartscript.QADemoCartPositive"/>
+      <class name="ecom.BITM.QADemoLoginscript.QADemoLoginPositive"/>
+      <class name="ecom.BITM.QADemoSignupscript.QADemoSignupPositive"/>
+      <class name="ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive"/>
+>>>>>>> branch 'master' of https://github.com/Yaminivadlamudi/Capgeminiprojectdemo.git
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

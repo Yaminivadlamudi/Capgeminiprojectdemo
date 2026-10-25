@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="QADemo Suite">
+
+    <groups>
+        <run>
+            <include name="Functionality"/>
+        </run>
+    </groups>
+
+    <test thread-count="5" name="QADemo Positive Tests">
+        <classes>
+            <class name="ecom.BITM.QADemoOrderplacedscript.QADemoOrderplacedPositive"/>
+            <class name="ecom.BITM.QADemoProductscript.QADemoProductpositive"/>
+            <class name="ecom.BITM.QADemoCartscript.QADemoCartPositive"/>
+            <class name="ecom.BITM.QADemoLoginscript.QADemoLoginPositive"/>
+            <class name="ecom.BITM.QADemoSignupscript.QADemoSignupPositive"/>
+            <class name="ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive"/>
+        </classes>
+    </test>
+
+</suite>

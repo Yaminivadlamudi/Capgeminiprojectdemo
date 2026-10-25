@@ -33,7 +33,16 @@ public class Crossbrowsertesting {
             driver = new ChromeDriver(settings);
         }
 
+<<<<<<< HEAD
 
+=======
+//     else if (browser.equalsIgnoreCase("edge")) {
+//        EdgeOptions settings = new EdgeOptions();
+//        settings.addArguments("--force-device-scale-factor=0.8");
+//
+//        driver = new EdgeDriver(settings);
+//    }
+>>>>>>> branch 'master' of https://github.com/Yaminivadlamudi/Capgeminiprojectdemo.git
         else if (browser.equalsIgnoreCase("edge")) {
 
             EdgeOptions settings = new EdgeOptions();

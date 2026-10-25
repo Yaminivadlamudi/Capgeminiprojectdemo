@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> branch 'master' of https://github.com/Yaminivadlamudi/Capgeminiprojectdemo.git
 package ecom.BITM.QADemo.POM;
 
 import java.time.Duration;
